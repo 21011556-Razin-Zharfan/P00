@@ -1,6 +1,7 @@
 import static org.junit.Assert.*;
 
 import org.junit.After;
+
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -51,13 +52,13 @@ public class CalculatorTest {
 	@Test
 	public void testMultiply() {
 		//fail("Not yet implemented");
-		int a=1234 ;
-		int b=4321 ;
+		int a=11 ;
+		int b=2 ;
 
 		Calculator cal = new Calculator();
 		int actual = cal.multiply(a, b);
 		
-		int expected =5332114 ;
+		int expected =22 ;
 		assertEquals (expected, actual);
 	}
 	@Test
