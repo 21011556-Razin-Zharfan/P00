@@ -14,7 +14,7 @@ public int multiply(int a, int b) {
 public int divide (int a, int b) {
 
 		if (b==0) {
-			throw new IllegalArgumentException() ;
+			throw new IllegalArgumentException(); //bbv 
 		}
 			return a / b;
    }
